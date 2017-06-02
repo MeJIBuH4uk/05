@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #c9c9c9;
     font-family: Georgia;
+    background-color: #f2f2f2;
     font-weight: 100;
 }
 
@@ -36,18 +36,4 @@ ul li {
     list-style: none;
     text-decoration: none;
     outline: none;
-}
-
-a {
-    transition: all.3s ease;
-    color: #9bb7ff;
-}
-
-a:hover {
-    color: #514cff;
-}
-
-p {
-    margin: 0;
-    padding: 0;
 }
