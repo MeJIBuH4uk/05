@@ -46,68 +46,91 @@
         </a>
         <form action="" class="search">
             <input type="text" placeholder="Search Our Website...">
-            <input type="submit" value="Search">
+            <input type="submit" class="more" value="Search">
         </form>
     </div>
 </header>
 <main>
-    <div class="slider">
-        <div class="left">
-            <h2></h2>
-            <p></p>
-            <a href="#" class="button">Read more</a>
-        </div>
-        <ul>
-            <li class="item current">
-                <div class="wr">
-                    <div class="right">
-                        <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
-                    </div>
+    <div class="wr">
+        <div class="slider">
+                <div class="left">
+                    <h2>Your title can be long and descriptive</h2>
+                    <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+                    <a href="#" class="button">Read more</a>
                 </div>
-            </li>
-            <li class="item">
-                <div class="wr">
-                    <script>
-                        $(document).ready(function () {
-                            $('.slider ul').lightSlider({
-                                item: 1,
-                                loop: false,
-                                slideMove: 1,
-                                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-                                speed: 700,
-                                responsive: [
-                                    {
-                                        breakpoint: 800,
-                                        settings: {
-                                            item: 1,
-                                            slideMove: 1,
-                                            slideMargin: 6
+                <ul>
+                    <li class="item current">
+                        <div class="wr">
+                            <div class="right">
+                                <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <script>
+                            $(document).ready(function() {
+                                $('.slider ul').lightSlider({
+                                    item: 1,
+                                    loop: false,
+                                    slideMove: 1,
+                                    easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                                    speed: 800,
+                                    responsive : [
+                                        {
+                                            breakpoint: 800,
+                                            settings: {
+                                                item: 1,
+                                                slideMove: 1,
+                                                slideMargin: 1
+                                            }
+                                        },
+                                        {
+                                            breakpoint: 480,
+                                            settings: {
+                                                item: 1,
+                                                slideMove: 1
+                                            }
                                         }
-                                    },
-                                    {
-                                        breakpoint: 480,
-                                        settings: {
-                                            item: 1,
-                                            slideMove: 1
-                                        }
-                                    }
-                                ]
+                                    ]
+                                });
                             });
-                        });
-                    </script>
-                    <div class="right">
-                        <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <nav>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-        </nav>
+                        </script>
+                        <div class="wr">
+                            <div class="right">
+                                <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wr">
+                            <div class="right">
+                                <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wr">
+                            <div class="right">
+                                <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wr">
+                            <div class="right">
+                                <a href="#"><img src="http://via.placeholder.com/550x440" alt=""></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <nav>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </nav>
+        </div>
     </div>
 
     <div class="dev">
